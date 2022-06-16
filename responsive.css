@@ -1,0 +1,420 @@
+@media (max-width: 1440px) {
+
+    /*Header*/
+    nav {
+        max-width: 1177px;
+    }
+
+    .left-nav {
+        height: 54px;
+    }
+
+    /*Carousel*/
+
+    /*Carousel Buttons*/
+    .btn-wrapper,
+    .carousel-info-wrapper,
+    .about-container,
+    .brands-main-container,
+    .sliders-sections,
+    .playlists-container,
+    .our-music-container,
+    .involved-container,
+    .footer-container {
+        max-width: 992px;
+    }
+
+    .progress-btn {
+        flex: 0 1 226px;
+    }
+
+    /*Carousel Slides*/
+
+    /*Carousel info*/
+    .carousel-info-wrapper h1 {
+        font-size: 2.5rem;
+        margin-top: 14px;
+    }
+
+    .carousel-info-wrapper h1:last-of-type {
+        margin-top: 2px;
+    }
+
+    .btn-type {
+        margin-top: 29px;
+    }
+
+    /*Brands*/
+    .brands-main-container h2,
+    .latest-releases>h2,
+    .our-artists>h2,
+    .featured-news>h2,
+    .playlist-header h2 {
+        font-size: 1.1rem;
+    }
+
+    /*Playlists*/
+
+    .playlist-icons {
+        flex-wrap: wrap;
+    }
+
+    .playlist-icons a {
+        min-width: 468px;
+    }
+
+    /*Our Music*/
+    .our-music-container>h2 {
+        font-size: 2rem;
+    }
+
+    /*Involved Section*/
+
+    .involved-container>h2 {
+        font-size: 2rem;
+    }
+
+    .involved-container a {
+        min-width: 468px;
+    }
+
+    .involved-container a h2 {
+        font-size: 1.1rem;
+    }
+
+    /*Footer*/
+    .second-container p{
+        font-size: 0.875rem;
+    }
+
+    .footer-credits{
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 1100px) {
+
+    /*Header*/
+    header {
+        padding: 8px 19px 8px 16px;
+        background-color: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(10px);
+        z-index: 5;
+    }
+
+    nav {
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .mid-nav {
+        grid-column: auto;
+        grid-row: auto;
+        margin-right: 3px;
+    }
+
+    .mid-nav ul {
+        flex-direction: row;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .mid-nav li:last-of-type {
+        margin-top: 4px;
+    }
+
+    .menu-btn {
+        color: #fdfdfd;
+    }
+
+    /*Containers Index*/
+    .carousel-info-wrapper,
+    .about-container {
+        position: initial;
+    }
+
+}
+
+@media (max-width: 992px) {
+    /*Carousel*/
+
+    /*Carousel Buttons*/
+    .btn-wrapper,
+    .carousel-info-wrapper,
+    .about-container,
+    .brands-main-container,
+    .sliders-sections,
+    .playlists-container,
+    .our-music-container,
+    .involved-container,
+    .footer-container {
+        max-width: 768px;
+    }
+
+    .progress-btn {
+        flex: 0 1 170px;
+    }
+
+    .progress-btn h4 {
+        font-size: 0.8rem;
+    }
+
+    /*Carousel Slides*/
+
+    /*Carousel Info*/
+    /* .carousel-info-wrapper{
+        top: 61%;
+    } */
+
+    .carousel-info-wrapper p {
+        font-size: 0.75rem;
+    }
+
+    /*About-Wrapper*/
+
+    .about-container p {
+        margin-top: 15px;
+    }
+
+    .about-container .btn-type {
+        margin-top: 30px;
+    }
+
+    /*Slider Sections*/
+    .sliders-sections {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    /*Playlists*/
+    .playlist-icons a {
+        min-width: 356px;
+    }
+
+    /*Our Music*/
+
+    .our-music-options h2 {
+        font-size: 1.1rem;
+    }
+
+    /*Involved Section*/
+
+    .involved-container a {
+        min-width: 356px;
+        padding: 51px 30px;
+    }
+
+    /*Footer*/
+    .first-footer ul, .first-footer div{
+        min-width: 235px;
+    }
+
+    .second-container{
+        gap: 30px;
+        align-items: center;
+    }
+
+    .second-container p, .second-container ul{
+        flex: 1;
+    }
+
+    .second-container ul{
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    /*Header*/
+    .left-nav {
+        height: 53px;
+    }
+
+    /*Carousel Buttons*/
+    .btn-wrapper,
+    .carousel-info-wrapper,
+    .about-container,
+    .brands-main-container,
+    .sliders-sections,
+    .playlists-container,
+    .our-music-container,
+    .involved-container,
+    .footer-container {
+        max-width: 532px;
+    }
+
+    .progress-btn {
+        flex: 0 1 486px;
+    }
+
+    /*Carousel Info*/
+    /* .carousel-info-wrapper{
+        top: 64.5%;
+    } */
+
+    .carousel-info-wrapper h1 {
+        font-size: 2rem;
+    }
+
+    .carousel-info-wrapper h1:first-of-type {
+        -webkit-text-stroke: 0px transparent;
+        -webkit-text-fill-color: white;
+    }
+
+    .btn-type {
+        font-size: 0.725rem;
+        padding: 16px 30px;
+    }
+
+    .gea-b,
+    .instinct-b,
+    .uncaged-b,
+    .silk-b {
+        padding: 17px 30px;
+    }
+
+    /*About*/
+    .about-container {
+        text-align: start;
+    }
+
+    .about-container h2 {
+        font-size: 1.1rem;
+    }
+
+    .about-container .btn-type {
+        font-size: 0.6rem;
+        padding: 12px 20px;
+    }
+
+    /*Brands*/
+
+    .brands-container {
+        flex-direction: column;
+    }
+
+    .brands-container a {
+        flex: 1;
+    }
+
+    /*Playlists*/
+    .playlist-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .playlist-icons a {
+        min-width: 222px;
+    }
+
+    /*Our Music*/
+    .our-music-options {
+        flex-direction: column;
+    }
+
+    .our-music-options p {
+        padding: 20px 0 50px 0;
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .our-music-options .btn-type {
+        font-size: 0.6rem;
+        padding: 12px 20px;
+    }
+
+    /*Involved Section*/
+
+    .involved-container a {
+        min-width: 461px;
+    }
+
+    /*Footer*/
+    .first-footer{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .first-footer ul:last-of-type{
+        margin-bottom: 50px;
+    }
+
+    .first-footer ul a{
+        margin-bottom: 5px;
+        font-size: 0.9rem;
+    }
+
+    .first-footer div h2{
+        font-size: 0.9rem;
+    }
+
+    .first-footer div p{
+        font-size: 0.875rem;
+    }
+
+    .second-container{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 532px) {
+
+    /*Header*/
+    nav {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .left-nav {
+        height: 37px;
+        width: 35px;
+    }
+
+    .mid-nav {
+        display: none;
+    }
+
+    /*Carousel Wrapper*/
+    .carousel-wrapper {
+        height: 90vh;
+    }
+
+    /*Carousel Info*/
+    /* .carousel-info-wrapper{
+        top: 65%;
+    } */
+
+    .carousel-info-wrapper h1 {
+        font-size: 0.8rem;
+    }
+
+    .carousel-info-wrapper h1:first-of-type {
+        font-size: 1.5rem;
+    }
+
+    .carousel-info-wrapper h1:last-of-type {
+        margin-top: 12px;
+    }
+
+    .btn-type {
+        font-size: 0.6rem;
+        padding: 10px 15px;
+        margin-top: 32px;
+    }
+
+    .gea-b,
+    .instinct-b,
+    .uncaged-b,
+    .silk-b {
+        padding: 11px 17px;
+    }
+
+    /*Involved Section*/
+
+    .involved-container a {
+        padding: 49px 15px;
+    }
+}

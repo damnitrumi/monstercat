@@ -416,5 +416,7 @@
 
     .involved-container a {
         padding: 49px 15px;
+        min-width: 100%;
+        max-width: 100%;
     }
 }
